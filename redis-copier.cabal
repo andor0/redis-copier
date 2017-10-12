@@ -1,6 +1,6 @@
 name:                redis-copier
 version:             0.1.0.0
-synopsis:            redis-copier copy all data with string type between two databases.
+synopsis:            redis-copier copy all data between two databases.
 -- description:
 homepage:            https://github.com/andor0/redis-copier/blob/master/README.md
 license:             BSD3
@@ -20,5 +20,4 @@ executable redis-copier
   ghc-options:         -O2 -rtsopts
   build-depends:       base >= 4.7 && < 5,
                        optparse-applicative,
-                       redis,
-                       bytestring
+                       hedis

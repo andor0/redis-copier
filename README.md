@@ -1,6 +1,6 @@
 # redis-copier
 
-redis-copier copy all data with string type between two databases. Data with non string type will be skipped.
+redis-copier copy all data between two databases.
 
 # Installation
 
